@@ -1,0 +1,8 @@
+CREATE TABLE tasks (
+    id SERIAL PRIMARY KEY,
+    requirements TEXT,
+    status VARCHAR(20),
+    result TEXT
+);
+INSERT INTO tasks (requirements, status) VALUES ('Requirement 1', 'pending');
+INSERT INTO tasks (requirements, status) VALUES ('Requirement 2', 'pending');
